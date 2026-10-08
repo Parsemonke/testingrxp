@@ -1,0 +1,13 @@
+# purchased guides & generated output never go into git
+source_guides/*
+!source_guides/.gitkeep
+output/
+
+# portable Python runtime (re-download with setup.cmd)
+runtime/
+
+# personal settings (BattleTags)
+config.json
+
+__pycache__/
+*.pyc
